@@ -1,5 +1,7 @@
 # CSS SYLLABUS
 
+## Basic 
+
 ### CSS Elements
 - The CSS element Selector
 - The CSS id Selector
