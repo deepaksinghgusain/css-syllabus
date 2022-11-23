@@ -1,6 +1,6 @@
 # CSS SYLLABUS
 
-## Basic 
+## Basic CSS 
 
 ### CSS Elements
 - The CSS element Selector
@@ -196,6 +196,126 @@
 - max()
 - min()
 
+## Advanced CSS
+
+### CSS Rounded Corners
+- border-radius	
+- border-top-left-radius	
+- border-top-right-radius	
+- border-bottom-right-radius	
+- border-bottom-left-radiuss
+
+### CSS Border Images
+- border-image	
+- border-image-source	
+- border-image-slice	
+- border-image-width	
+- border-image-outset	
+- border-image-repeat
+
+### CSS Multiple Backgrounds
+- background	
+- background-clip	
+- background-image	
+- background-origin	
+- background-size
+
+### CSS Colors
+- RGBA Colors
+- HSLA Colors
+
+### CSS Gradients
+- background-image: linear-gradient(direction, color-stop1, color-stop2, ...)
+- background-image: radial-gradient(shape size at position, start-color, ..., last-color)
+- background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...)
+
+### CSS Shadow
+- CSS Shadow Effects ( text-shadow, box-shadow )
+
+### CSS Text Effects
+- text-overflow
+- word-wrap
+- word-break
+- writing-mode
+
+### CSS 2D Transforms
+- transform (translate() / rotate() / scaleX() / scaleY() / scale() / skewX() / skewY() / skew() / matrix())
+
+### CSS 3D Transforms
+- transform  (rotateX() / rotateY() /rotateZ())
+
+### CSS Transitions
+- transition
+- transition-delay
+- transition-duration
+- transition-property
+- transition-timing-function ( ease linear ease-in ease-out ease-in-out cubic-bezier(n,n,n,n))
+
+### CSS Animations
+- @keyframes
+- animation-name
+- animation-duration
+- animation-delay
+- animation-iteration-count
+- animation-direction
+- animation-timing-function
+- animation-fill-mode
+- animation
+
+### CSS The object-fit Property
+- object-fit (fill / contain / cover / none / scale-down) 
+- object-position
+
+### CSS Box Sizing
+- box-sizing (border-box)
+
+### CSS Media Queries
+- @media not|only mediatype and (expressions) {
+-   CSS-Code;
+- }
+
+- @media screen and (min-width: 480px) {
+-   body {
+-     background-color: lightgreen;
+-   }
+- }
+
+### CSS Flexbox
+- flex
+
+### CSS Flex Container
+- flex-direction
+- flex-wrap
+- flex-flow
+- justify-content
+- align-items
+- align-content
+
+### CSS Flexbox item
+- order
+- flex-grow
+- flex-shrink
+- flex-basis
+- flex
+- align-self
+
+### CSS Flex Responsive
+-  flex
+
+## CSS Grid Layout Module
+
+### CSS Grid Container
+- grid 
+- inline-grid.
+- grid-template-columns
+- grid-template-rows
+- justify-content
+- align-content
+
+### CSS Grid Item
+- grid-column
+- grid-row
+- grid-area (grid-row-start, grid-column-start, grid-row-end , grid-column-end)
 
 
 
