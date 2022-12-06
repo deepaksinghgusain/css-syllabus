@@ -54,7 +54,7 @@
 - values ( length / % / inherit )
 - padding (shorthand)
 
-### CSS Height, Width and Max-width
+### CSS Height, Width and Max-width, Max-height
 - height
 - width
 - max-height
@@ -164,12 +164,12 @@
 - opacity
 
 ### CSS Attribute Selectors
-- [attribute]
-- [attribute~="value"]
-- [attribute|="value"] 
-- [attribute^="value"]
-- [attribute$="value"]
-- [attribute*="value"] 
+- [attribute] have attribute
+- [attribute~="value"] selector is used to select elements with an attribute value containing a specified word
+- [attribute|="value"] selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-).
+- [attribute^="value"] selector is used to select elements with the specified attribute, whose value starts with the specified value.
+- [attribute$="value"] selector is used to select elements whose attribute value ends with a specified value.
+- [attribute*="value"]  selector is used to select elements whose attribute value contains a specified value.
 
 ### CSS Units
 - cm	centimeters
@@ -203,15 +203,14 @@
 - border-top-left-radius	
 - border-top-right-radius	
 - border-bottom-right-radius	
-- border-bottom-left-radiuss
+- border-bottom-left-radius
 
 ### CSS Border Images
-- border-image	
-- border-image-source	
-- border-image-slice	
-- border-image-width	
-- border-image-outset	
-- border-image-repeat
+- border-image-source	The border-image-source CSS property sets the source image used to create an element's border image.
+- border-image-slice	 The border-image-slice CSS property divides the image specified by border-image-source into regions. These regions form the components of an element's border image.
+- border-image-width	The border-image-width CSS property sets the width of an element's border image.
+- border-image-outset The border-image-outset CSS property sets the distance by which an element's border image is set out from its border box.	
+- border-image-repeat (stretch , repeat , round,  space,  round stretch)
 
 ### CSS Multiple Backgrounds
 - background	
@@ -240,6 +239,19 @@
 
 ### CSS 2D Transforms
 - transform (translate() / rotate() / scaleX() / scaleY() / scale() / skewX() / skewY() / skew() / matrix())
+
+- matrix(n,n,n,n,n,n)	Defines a 2D transformation, using a matrix of six values
+- matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+- translate(x,y)	Defines a 2D translation, moving the element along the X- and the Y-axis
+- translateX(n)	Defines a 2D translation, moving the element along the X-axis
+- translateY(n)	Defines a 2D translation, moving the element along the Y-axis
+- scale(x,y)	Defines a 2D scale transformation, changing the elements width and height
+- scaleX(n)	Defines a 2D scale transformation, changing the element's width
+- scaleY(n)	Defines a 2D scale transformation, changing the element's height
+- rotate(angle)	Defines a 2D rotation, the angle is specified in the parameter
+- skew(x-angle,y-angle)	Defines a 2D skew transformation along the X- and the Y-axis
+- skewX(angle)	Defines a 2D skew transformation along the X-axis
+- skewY(angle)	Defines a 2D skew transformation along the Y-axis
 
 ### CSS 3D Transforms
 - transform  (rotateX() / rotateY() /rotateZ())
