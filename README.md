@@ -36,7 +36,7 @@
 - border-width
 - border-color
 - border
-- border-radius
+- border-radius 
 
 ### CSS Margins
 - margin-top
@@ -141,7 +141,7 @@
 - visibility(hidden/ visible)
 
 ### CSS Layout - The position Property
-- position ( static, relative, fixed, absolute, sticky)
+- position ( relative, fixed, absolute, sticky)
 
 ### CSS Layout - The z-index Property
 - z-index
@@ -186,7 +186,7 @@
 - vh	Relative to 1% of the height of the viewport*	
 - vmin	Relative to 1% of viewport's* smaller dimension	
 - vmax	Relative to 1% of viewport's* larger dimension	
-- %	Relative to the parent element
+- %	    Relative to the parent element
 
 ### CSS The !important Rule
 - !important
@@ -214,8 +214,8 @@
 
 ### CSS Multiple Backgrounds
 - background	
-- background-clip	
 - background-image	
+- background-clip	
 - background-origin	
 - background-size
 
@@ -321,13 +321,12 @@
 - inline-grid.
 - grid-template-columns
 - grid-template-rows
-- justify-content
 - align-content
 
-### CSS Grid Item
+<!-- ### CSS Grid Item
 - grid-column
 - grid-row
-- grid-area (grid-row-start, grid-column-start, grid-row-end , grid-column-end)
+- grid-area (grid-row-start, grid-column-start, grid-row-end , grid-column-end) -->
 
 
 

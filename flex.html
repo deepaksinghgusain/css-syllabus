@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .rootDiv {
+            display: flex;
+            align-items: center;
+            background-color: #f1f1f1;
+        }
+
+        .rootDiv>div {
+            background-color: DodgerBlue;
+            color: white;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        } */
+
+        /* .rootDiv {
+            display: flex;
+             flex-direction: row;
+            flex-wrap: wrap;
+            flex-flow: row nowrap;
+            justify-content:space-between;
+            height: 100%; 
+            flex-wrap: wrap;
+            width: 100%;
+            align-items:center;
+            align-content: space-around;
+            background-color: aqua;
+            flex-wrap: wrap;
+            align-content:space-around;
+        }
+
+        .childDiv {
+            background-color: red;
+            color: white;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            order: 2;
+            text-align: center;
+            flex: 100%;
+        } */
+
+        #content {
+            display: flex;
+            width: 500px;
+            height: 500px;
+        }
+
+        #content div {
+            flex-basis: 120px;
+            border: 3px solid rgba(0, 0, 0, 0.2);
+        }
+
+        .box {
+            flex-shrink: 1;
+        }
+
+        .box1 {
+            flex-shrink: 2;
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--     
+### CSS Flexbox
+- flex
+
+### CSS Flex Container
+- flex-direction
+- flex-wrap
+- flex-flow
+- justify-content
+- align-items
+- align-content
+
+### CSS Flexbox item
+- order
+- flex-grow
+- flex-shrink
+- flex-basis
+- flex (flex-grow, flex-shrink,flex-basis)
+- align-self
+
+### CSS Flex Responsive
+-  flex -->
+
+    <!-- <div class="rootDiv">
+        <div class="childDiv">
+            <div class="child">Div1</div>
+        </div>
+        <div class="childDiv">
+            <div class="child">Div2</div>
+        </div>
+        <div class="childDiv"  style="flex-grow: 2;"><div class="child">Div3</div></div>
+        <div class="childDiv" >
+            <div class="child">Div4</div>
+        </div>
+        <div class="childDiv" style="flex-basis: 200px;">
+            <div class="child">Div5</div>
+        </div> 
+        <div class="childDiv" style="flex: 0 1  200px;">
+            <div class="child">Div6</div>
+        </div>
+        <div class="childDiv" style="flex-shrink: 1;">
+            <div class="child">Div7</div>
+        </div>
+        <div class="childDiv">
+            <div class="child">Div7</div>
+        </div>
+        <div class="childDiv">
+            <div class="child">Div7</div>
+        </div>
+        <div class="childDiv">
+            <div class="child">Div7</div>
+        </div>
+
+        <div class="childDiv">
+            <div class="child">Div8</div>
+        </div>
+
+       
+    </div> -->
+
+    <div id="content">
+        <div class="box" style="background-color:red;">A</div>
+        <div class="box" style="background-color:lightblue;">B</div>
+        <div class="box" style="background-color:yellow;">C</div>
+        <div class="box1" style="background-color:brown;">D</div>
+        <div class="box1" style="background-color:lightgreen;">E</div>
+    </div>
+
+</body>
+
+</html>
